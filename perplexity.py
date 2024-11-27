@@ -91,7 +91,8 @@ class Perplexity:
         if not args.api_key:
             api_key = ApiKeyValidator.get_api_key_from_system()
             if api_key is None:
-                logger.debug("Api key not found on system")
+                display("Api key not found on system! ", "red")
+                logger.debug("Api key not found on system!")
                 raise ApiKeyNotFoundException
             else:
                 logger.debug(f"Api key found on system: {api_key}")
@@ -194,7 +195,7 @@ def main() -> None:
         perplexity = Perplexity(args)
         perplexity.get_response(args.query)
     except Exception as e:
-        logger.error(f"An error occurred: {str(e)}")
+        logger.debug(f"An error occurred: {str(e)}")
         sys.exit(1)
 
 
