@@ -1,4 +1,5 @@
-## Perplexity CLI
+## Perplexity CLI 🔎
+![screen](docs/screen.png)
 Perplexity CLI is a simple and convenient command-line client for the Perplexity API, allowing users to quickly ask questions and receive answers directly from the terminal.
 
 ## Features
