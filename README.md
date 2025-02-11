@@ -30,7 +30,7 @@ perplexity "What is the meaning of life?"
 
 ## With Additional Options
 ```bash
-perplexity -uc -m llama-3.1-sonar-large-128k-online "Explain Einstein's theory of relativity"
+perplexity -uc -m sonar-pro "Explain Einstein's theory of relativity"
 ```
 
 ## Options
@@ -39,12 +39,13 @@ perplexity -uc -m llama-3.1-sonar-large-128k-online "Explain Einstein's theory o
 -   `-c`, `--citations`: Show citations
 -   `-g`, `--glow`: Use Glow-compatible formatting
 -   `-a API_KEY`, `--api-key API_KEY`: Set the API key (optional, defaults to `PERPLEXITY_API_KEY` environment variable)
--   `-m MODEL`, `--model MODEL`: Choose the language model (default: llama-3.1-sonar-small-128k-online)
+-   `-m MODEL`, `--model MODEL`: Choose the language model (default: sonar-pro)
 
 ## Available Models
--   llama-3.1-sonar-small-128k-online
--   llama-3.1-sonar-large-128k-online
--   llama-3.1-sonar-huge-128k-online
+-   sonar-reasoning-pro
+-   sonar-reasoning
+-   sonar-pro
+-   sonar
 
 ## Configuration
 Set the `PERPLEXITY_API_KEY` environment variable with your Perplexity API key:

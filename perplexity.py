@@ -8,9 +8,10 @@ import requests
 import json
 
 AVAILABLE_MODELS = [
-    "llama-3.1-sonar-small-128k-online",
-    "llama-3.1-sonar-large-128k-online",
-    "llama-3.1-sonar-huge-128k-online",
+    "sonar-reasoning-pro",
+    "sonar-reasoning",
+    "sonar-pro",
+    "sonar"
 ]
 
 logger = logging.getLogger(__name__)
@@ -178,10 +179,10 @@ def main() -> None:
         "-m",
         "--model",
         type=str,
-        help="Description for model argument (default: llama-3.1-sonar-small-128k-online) "
+        help="Description for model argument (default: sonar-pro) "
         f"Available models: {AVAILABLE_MODELS}",
         required=False,
-        default="llama-3.1-sonar-small-128k-online",
+        default="sonar-pro",
     )
     args = parser.parse_args()
     log_level = logging.DEBUG if args.verbose else logging.WARNING
