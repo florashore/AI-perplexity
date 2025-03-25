@@ -41,7 +41,7 @@ Follow these steps to set up the app on your local machine:
    ```
 3. Clone the repository:
    ```bash
-   git clone https://github.com/Binary-Shade/React_native-estate-sphere.git
+   git clone https://github.com/florashore/React_native-estate-sphere.git
    ```
 4. Navigate to the project directory:
    ```bash
@@ -106,8 +106,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-- **Repository Link:** [Binary-Shade/React_native-estate-sphere](https://github.com/Binary-Shade/React_native-estate-sphere.git)
-- **Author:** [Suresh K](https://github.com/Binary-Shade)
+- **Repository Link:** [Florashore/React_native-estate-sphere](https://github.com/florashore/React_native-estate-sphere.git)
+- **Author:** [Florashore](https://github.com/florashore)
 
 Feel free to reach out for any questions or feedback!
 
